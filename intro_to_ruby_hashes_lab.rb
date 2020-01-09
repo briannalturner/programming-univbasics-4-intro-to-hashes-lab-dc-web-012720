@@ -38,7 +38,7 @@ def update_counting_hash(hash, key)
     puts hash[key]
   else
     hash[key] = 1
-    puts hash[key]
+    puts hash
   end
 end
 
