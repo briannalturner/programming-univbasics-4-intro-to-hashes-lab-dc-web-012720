@@ -47,4 +47,4 @@ person = {
   age: 20
 }
 
-update_counting_hash(person, age)
+update_counting_hash(person, :age)
