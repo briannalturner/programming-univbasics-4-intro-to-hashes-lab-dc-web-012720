@@ -38,7 +38,7 @@ def update_counting_hash(hash, key)
     puts hash[key]
   else
     hash[key] = 1
-    puts hash
+    puts key
   end
 end
 
@@ -48,3 +48,4 @@ person = {
 }
 
 update_counting_hash(person, :weight)
+
